@@ -5,32 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+
+ <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Four card feature section</title>
-
-  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <main class="container">
    <header class="header">
     <h1 class="title">
      Reliable, efficient delivery
-     <strong class="title__emphasis">
+     <strong class="title--emphasis">
       Powered by Technology
      </strong>
    </h1>
-   <p class="sub__title">
+   <p class="sub-title">
     Our Artificial Intelligence powered tools use millions of project data points 
   to ensure that your project is successful
    </p>
    </header>
    <article class="content">
-    <section class="card card__cyan">
+    <section class="card card--cyan">
      <h2 class="card__title">Supervisor</h2>
      <p class="card__content">
       Monitors activity to identify project roadblocks
      </p>
-     <footer class="card--icon">
+     <footer class="card__icon">
       <img src="images/icon-supervisor.svg" alt="magnifying glass" class="card__icon-img">
      </footer>
     </section>
@@ -43,7 +47,7 @@
       <img src="images/icon-team-builder.svg" alt="house" class="card__icon-img">
      </footer>
     </section>
-    <section class="card card--yellow">
+    <section class="card card--orange">
      <h2 class="card__title">Karma</h2>
      <p class="card__content">
       Regularly evaluates our talent to ensure quality
